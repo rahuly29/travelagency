@@ -1,0 +1,47 @@
+#way {
+    margin-top: 10rem;
+}
+
+.way-heading {
+    color: #000;
+    /* h2 */
+    font-family: "Inter", sans-serif;
+    font-size: clamp(1.25rem, 1.946vw + 1.249rem, 3rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.way-subtitle {
+    color: #000;
+    /* body */
+    font-family: "Inter", sans-serif;
+    font-size: clamp(0.875rem, 0vw + 0.875rem, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.way-client {
+    color: #000;
+    /* h4 */
+    font-family: Inter;
+    font-size: clamp(0.875rem, 0vw + 0.875rem, 0.875rem);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+#contactus-btn {
+    border: 1px solid var(--blue);
+    border-radius: 25px;
+    color: var(--blue);
+    text-align: center;
+    font-family: Inter;
+    font-size: clamp(1.25rem, 0vw + 1.25rem, 1.25rem);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* margin-top: 8rem; */
+}

@@ -1,0 +1,45 @@
+#testimonial {
+    margin-top: 10rem;
+}
+
+.testimonial-main-heading {
+    color: #000;
+    text-align: center;
+    /* h2 */
+    font-family: "Inter", sans-serif;
+    font-size: clamp(3rem, 0vw + 3rem, 3rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.testimonial-para{
+    background: #ECF5FF;
+}
+.profile-name {
+    color: #000;
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    font-size: clamp(2rem, 0vw + 2rem, 2rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*  */
+
+/* Add these styles to your existing CSS or SCSS file */
+/* .splide__arrow-custom {
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    transform: translate(-50%,125%);
+    cursor: pointer;
+    z-index: 1000; 
+    visibility: visible;
+  }
+   */
+  .splide__arrow-custom svg {
+    width: 30px; /* Adjust the width of your custom arrow */
+    fill: #000; /* Adjust the color of your custom arrow */
+  }
+  

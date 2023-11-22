@@ -1,0 +1,70 @@
+#footer {
+    background-color: var(--blue);
+}
+
+.footer-heading {
+    color: #F2F2F2;
+    font-family: "Inter", sans-serif;
+    /* font-size: clamp(1.5rem, 0vw + 1.5rem, 1.5rem); */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-subtitle {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    /* font-size: clamp(0.875rem, 0vw + 0.875rem, 0.875rem); */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ .footer{
+    /* padding: 5rem; */
+}
+
+.about a, .support a {
+    text-decoration: none;
+    align-items: start;
+    color: #fff;
+}
+#custom-btn{
+    background-color: var(--blue);
+    color: #fff;
+    margin: .28rem;
+}
+.input{
+    padding: .7rem 7rem .7rem 1rem;
+    border-radius: 25px;
+    border: none;
+    width: 150%;
+}
+
+.turistoe {
+    padding: 40px 29px 56px 25px;
+}
+
+.subscribe {
+    padding: 40px 70px 12px 25px;
+}
+
+.about {
+    padding: 40px 32px 25px 25px;
+}
+
+.support {
+    padding: 45px 35px 40px 25px;
+}
+
+.copyright {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

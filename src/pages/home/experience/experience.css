@@ -1,0 +1,73 @@
+#experience{
+    margin-top: 10rem;
+}
+
+.experience-heading {
+    color: #000;
+    /* h2 */
+    font-family: "Inter", sans-serif;
+    font-size: clamp(1.25rem, 1.946vw + 1.249rem, 3rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.experience-subtitle {
+    color: #000;
+    /* body */
+    font-family: "Inter",sans-serif;
+    font-size: clamp(0.875rem, 0vw + 0.875rem, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*  */
+/* 
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem 0 0 0;
+    border: 1px solid var(--blue);
+    border-radius: 25px;
+    margin-top: 2rem;
+  }
+  
+  .image-background {
+    background-image: url('/public/assets/images/exp-picture.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    
+  }
+  .image-background2 {
+    background-image: url('/public/assets/images/exp-picture2.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    
+  }
+
+
+  .overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white; 
+  }
+  
+  .top-div, .bottom-div {
+    padding: 4rem;
+  } */
+  
+  

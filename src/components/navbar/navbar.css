@@ -1,0 +1,17 @@
+#navbar-brand {
+    color: #FFF;
+    font-family: Inter;
+    font-size: clamp(1.5rem, 0vw + 1.5rem, 1.5rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.navbar-toggler-icon{
+    color: #FFF !important;
+    
+}
+.navbar-toggler {
+    border: 1px solid white !important;
+    border-radius: 50% !important;
+    padding: 1rem !important;
+}

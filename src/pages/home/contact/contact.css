@@ -1,0 +1,39 @@
+#contact {
+    margin-top: 10rem;
+}
+.contact-bg{
+    background: url('/public/assets/images/footer-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* object-fit:fill; */
+    /* height: 76vh !important; */
+}
+
+.contact-heading {
+    color: #FFF;
+    text-align: center;
+    /* h2 */
+    font-family: "Inter", sans-serif;
+    font-size: clamp(2rem, 0vw + 2rem, 2rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.overlay {
+    /* top: 50%; */
+    /* left: 50%; */
+    
+    /* transform: translate(-50%, -50%); */
+}
+
+.subtitle {
+    color: #FFF;
+    text-align: center;
+    /* body */
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

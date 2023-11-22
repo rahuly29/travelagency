@@ -1,0 +1,56 @@
+/* styles of hero */
+#hero {
+  background: linear-gradient(180deg, #003c82 3.96%, rgba(0, 60, 130, 0) 100%),
+    lightgray 0px -34.25px / 100% 107.54% no-repeat;
+  height: 100vh;
+  background-image: url("/public/assets/images/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-heading {
+  color: #fff;
+  text-align: center;
+  /* h1 */
+  font-family: "Inter", sans-serif;
+  /* use fluid typography formula for font size same for all text all over the project */
+  /* font-size: clamp(1rem, 5.81vw + 1.871rem, 8rem); */
+  font-size: clamp(1.375rem, 7.361vw + 1.375rem, 8rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#search-btn {
+  border-color: var(--blue);
+  /* border-radius: 13%; */
+  /* padding: .3rem; */
+}
+
+#search-btn span {
+  color: #003C82;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+
+}
+
+
+hr {
+  /* height: 2px; */
+  border-color: var(--blue) !important;
+}
+
+.custom-radius {
+  border-radius: 20px;
+}
+
+.custom-dropdown-toggle {
+  background-image: url('/public/assets/icons/arrowDown.svg');
+  background-repeat: no-repeat;
+}
