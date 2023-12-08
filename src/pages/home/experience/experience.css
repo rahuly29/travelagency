@@ -22,6 +22,22 @@
     line-height: normal;
 }
 
+@media (min-width: 992px) {
+  .slide {
+    border: 1px solid var(--blue);
+    border-radius: 25px;
+    border-color: #003C82;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .slide {
+    border-color: transparent;
+    padding: 0rem;
+  }
+}
+
 /*  */
 /* 
 .background-container {

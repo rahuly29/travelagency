@@ -25,6 +25,10 @@
     line-height: normal;
 }
 
+.testimonial-border{
+    border: 1px solid var(--blue);
+}
+
 /*  */
 
 /* Add these styles to your existing CSS or SCSS file */

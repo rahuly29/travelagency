@@ -5,6 +5,7 @@
     background: url('/public/assets/images/footer-banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     /* object-fit:fill; */
     /* height: 76vh !important; */
 }

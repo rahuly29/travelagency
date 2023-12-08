@@ -16,7 +16,7 @@
   font-family: "Inter", sans-serif;
   /* use fluid typography formula for font size same for all text all over the project */
   /* font-size: clamp(1rem, 5.81vw + 1.871rem, 8rem); */
-  font-size: clamp(1.375rem, 7.361vw + 1.375rem, 8rem);
+  font-size: clamp(1.375rem, 7.361vw + 1.375rem, 7rem);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -26,6 +26,12 @@
   border-color: var(--blue);
   /* border-radius: 13%; */
   /* padding: .3rem; */
+}
+@media (min-width: 992px) {
+  #search-btn {
+    background-color: #003C82;
+    /* Add any other styles for large screens here */
+  }
 }
 
 #search-btn span {

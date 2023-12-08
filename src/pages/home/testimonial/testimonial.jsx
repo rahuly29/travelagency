@@ -56,12 +56,16 @@ const Testimonial = () => {
     };
 
     console.log(splideRef);
+
+
+
+    
     return (
 
-        <div id='testimonial'>
+        <section id='testimonial'>
             <h2 className='text-center testimonial-main-heading '>Our happy client</h2>
 
-            <div className="splide mt-5" >
+            <div className="splide mt-5 px-3" >
                 <Splide
                     ref={splideRef}
                     options={{
@@ -89,7 +93,7 @@ const Testimonial = () => {
         
                     {slides.map((slide, index) => (
                         <SplideSlide key={slide.id}>
-                            <div className={`p-2 ${currentProfile === slide.profile ? 'custom-border rounded-4' : ''}`}>
+                            <div className={`p-2 ${currentProfile === slide.profile ? 'testimonial-border rounded-4' : ''}`}>
                                 <div className='position-relative d-flex flex-column justify-content-center align-items-center p-2'>
                                     <p className='testimonial-para rounded-4 p-3 mb-auto'>{slide.content}</p>
                                     <img src="/assets/images/Polygon 1.svg" alt="" className='position-absolute bottom-0'/>
@@ -102,6 +106,7 @@ const Testimonial = () => {
                     ))}
                    
                 </Splide>
+                </div>
                 <div className='d-flex justify-content-center align-items-center gap-5  w-100 position-absolute z-1 visible'>
                     <div className='text-start'>
                     <span
@@ -121,8 +126,8 @@ const Testimonial = () => {
                         <img className='inline-block' src="/assets/icons/rightarrow.svg" alt="" />
                     </span>
                 </div>
-            </div>
-        </div>
+            
+        </section>
     );
 }
 

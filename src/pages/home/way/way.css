@@ -45,3 +45,16 @@
     line-height: normal;
     /* margin-top: 8rem; */
 }
+
+.play-icon{
+    top: 50%;
+    right: 45%;
+}
+
+@media (max-width: 992px) {
+    .play-icon {
+      top: 45%;
+      left: 43%;
+      
+    }
+  }

@@ -23,80 +23,91 @@ const Experience = () => {
             </div>
           </div>
           <div className="col-12 col-lg-7">
-            <div className="">
+            <div className="mx-2">
               <Splide
                 className="h-100"
                 options={{
-                  perPage: 2.3,
+                  perPage: 2.2,
                   gap: "10px",
-                  focus: 2,
+                  focus: 'center',
                   arrows: false,
                   pagination: false,
                   breakpoints: {
                     320: {
                       perPage: 1.16,
                     },
-                    425:{
-                      perPage:1.16,
+                    425: {
+                      perPage: 1.3,
                     }
                   },
                 }}
                 aria-labelledby=""
               >
-                <SplideSlide>
-                  <div className="h-auto overflow-hidden">
+                <SplideSlide className="slide mx-2">
+                  <div className="h-auto  overflow-hidden">
                     <img
                       className="h-100 w-100 object-fit-cover"
-                      src="/assets/images/experience-image1.svg"
+                      src="/assets/images/canada.png"
                       alt=""
                     />
                   </div>
                 </SplideSlide>
-                <SplideSlide>
+                <SplideSlide className="slide mx-2">
                   <div className="h-auto overflow-hidden">
                     <img
-                      className="h-100 w-100 object-fit-cover"
-                      src="/assets/images/experience-image2.svg"
+                      className="h-100 w-100  object-fit-cover"
+                      src="/assets/images/canada.png"
                       alt=""
                     />
                   </div>
                 </SplideSlide>
-                <SplideSlide>
-                  <div className="h-auto overflow-hidden">
+                <SplideSlide className="slide mx-2">
+                  <div className="h-auto overflow-hidden ">
                     <img
                       className="h-100 w-100 object-fit-cover"
-                      src="/assets/images/experience-image2.svg"
+                      src="/assets/images/canada.png"
                       alt=""
                     />
                   </div>
                 </SplideSlide>
-                <SplideSlide>
-                  <div className="h-auto overflow-hidden">
+                <SplideSlide className="slide mx-2">
+                  <div className="h-auto overflow-hidden ">
                     <img
                       className="h-100 w-100 object-fit-cover"
-                      src="/assets/images/experience-image2.svg"
+                      src="/assets/images/canada.png"
                       alt=""
                     />
                   </div>
                 </SplideSlide>
-                <SplideSlide>
-                  <div className="h-auto overflow-hidden">
+                <SplideSlide className="slide mx-2">
+                  <div className="h-auto overflow-hidden ">
                     <img
                       className="h-100 w-100 object-fit-cover"
-                      src="/assets/images/experience-image2.svg"
+                      src="/assets/images/canada.png"
                       alt=""
                     />
                   </div>
                 </SplideSlide>
-                <SplideSlide>
-                  <div className="h-auto overflow-hidden">
+                <SplideSlide className="slide mx-2">
+                  <div className="h-auto  overflow-hidden">
                     <img
                       className="h-100 w-100 object-fit-cover"
-                      src="/assets/images/experience-image2.svg"
+                      src="/assets/images/canada.png"
                       alt=""
                     />
                   </div>
                 </SplideSlide>
+                {/* {[...Array(6).keys()].map((index) => (
+                  <SplideSlide key={index} className="slide mx-2">
+                    <div className="h-auto overflow-hidden">
+                      <img
+                        className="h-100 w-100 object-fit-cover"
+                        src="/assets/images/canada.png"
+                        alt=""
+                      />
+                    </div>
+                  </SplideSlide>
+                ))} */}
               </Splide>
             </div>
           </div>

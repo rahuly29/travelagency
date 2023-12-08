@@ -186,9 +186,9 @@ import "./footer.css";
 const Footer = () => {
     return (
         <section id='footer'>
-            <div className="container col-10 pt-5">
-                <div className="row gap-4 py-5">
-                    <div className="col-md-12 col-lg-2 col-xl-2 order-last order-lg-first py-4 px-4 turistoe border border-1 border-white rounded-5 d-inline-flex flex-column align-items-start flex-fill">
+            <div className="container col-10 pt-5 px-0">
+                <div className="row gap-2 py-5">
+                    <div className="col-md-12 col-lg-2 col-xl-2 order-last order-lg-first py-4 px-4 turistoe border border-1 border-white rounded-4 d-inline-flex flex-column align-items-start flex-fill">
                         <div>
                             <h2 className='footer-heading py-2'>Turistoe</h2>
                             <p className='footer-subtitle py-2'>We create unforgettable travel <br /> experiences that you will <br /> cherish all your life.</p>
@@ -201,7 +201,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-12 col-lg-6 col-xl-4 order-2  py-4 px-4 subscribe border border-1 border-white rounded-5 d-inline-flex flex-column align-items-start flex-fill">
+                    <div className="col-md-12 col-lg-6 col-xl-4 order-2  py-4 px-4 subscribe border border-1 border-white rounded-4 d-inline-flex flex-column align-items-start flex-fill">
                         <div className=''>
                             <h2 className='footer-heading py-2'>Take a trip with us</h2>
                             <p className='footer-subtitle py-2'>
@@ -209,14 +209,14 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className='d-flex position-relative py-3'>
-                            <input type="email" placeholder='Enter your email address' className='input rounded-5 border-0 w-100' />
+                            <input type="email" placeholder='Enter your email address' className='input rounded-4 border-0 w-100' />
                             <a id='custom-btn' className='btn position-absolute rounded-5 end-0'>
                                 Subscribe
                             </a>
                         </div>
                     </div>
 
-                    <div className="col-5 col-md-12 col-lg-2 col-xl-2 order-3  about border border-1 border-white rounded-5 d-inline-flex flex-column align-items-start flex-fill ">
+                    <div className="col-5 col-md-12 col-lg-2 col-xl-2 order-3  about border border-1 border-white rounded-4 d-inline-flex flex-column align-items-start flex-fill ">
                         <div className='p-2'>
                             <div>
                                 <h2 className='footer-heading'>About</h2>
@@ -230,7 +230,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-5 col-md-12 col-lg-2 col-xl-2 order-4 support border border-1 border-white rounded-5 d-inline-flex flex-column align-items-start flex-fill">
+                    <div className="col-5 col-md-12 col-lg-2 col-xl-2 order-4 support border border-1 border-white rounded-4 d-inline-flex flex-column align-items-start flex-fill">
                         <div className='p-1'>
                             <div>
                                 <h2 className='footer-heading'>Support</h2>

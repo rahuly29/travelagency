@@ -29,10 +29,21 @@
 }
 
 .custom-border {
-    /* padding: 15px; */
     border: 1px solid var(--blue);
-    /* height: 100%; */
 }
+@media (min-width: 992px) {
+    .custom-border {
+      border-color: #003C82;
+        padding: 1rem;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .custom-border {
+      border-color: transparent;
+      padding: 0rem;
+    }
+  }
 
 .memories-info {
     left: 0;
@@ -66,4 +77,10 @@
     height: 367px;
     flex-shrink: 0; */
     /* margin-right: -3.8rem; */
+}
+
+.memoryimage-text{
+    position: absolute;
+    left: 1rem;
+    bottom: 3rem;
 }

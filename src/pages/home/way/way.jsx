@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './way.css'
 
 const Way = () => {
+  const [isVideoVisible, setIsVideoVisible] = useState(false);
+
+  const handlePlayClick = () => {
+    setIsVideoVisible(true);
+  };
   return (
     <section id='way'>
       <div className="container">
@@ -25,8 +30,34 @@ const Way = () => {
               Contact us
             </button>
           </div>
-          <div className="col-md-5 col-sm-12 col-lg-5 text-center mt-4 mt-md-0">
+          {/* <div className="col-md-5 col-sm-12 col-lg-5 position-relative text-center mt-4 mt-md-0">
             <img src="/assets/images/Component 2.svg" alt="" className='img-fluid'/>
+            <span className='position-absolute top-50'><img src="/assets/icons/play.svg" alt="" /></span>
+          </div> */}
+          <div className="col-md-5 col-sm-12 col-lg-5 position-relative text-center mt-4 mt-md-0">
+            <div className="video-container rounded">
+              {!isVideoVisible && (
+                <div className="position-relative">
+                  <img
+                    src="/assets/images/Component 2.svg"
+                    alt=""
+                    className=" img-fluid rounded"
+                    
+                  />
+                  <span className="position-absolute play-icon visible"
+                    onClick={handlePlayClick}
+                  >
+                    <img src="/assets/icons/play.svg" alt="" className="text-light" />
+                  </span>
+                </div>
+              )}
+              {isVideoVisible && (
+                <video controls className="video-wrapper img-fluid rounded h-100 w-100">
+                  <source src="/assets/video/one-piece.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              )}
+            </div>
           </div>
         </div>
       </div>
