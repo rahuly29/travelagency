@@ -79,11 +79,11 @@ const Testimonial = () => {
                         breakpoints: {
                             320: {
                                 perPage: 1,
-                                focus:'center',
+                                focus:0,
                             },
                             430:{
                                 perPage:1,
-                                focus:'center',
+                                focus:0,
                             }
                         }
                     }}

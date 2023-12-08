@@ -45,7 +45,8 @@ const Memories = () => {
         <div id='' className="row mt-5 g-3">
           <div className="col-12 col-lg-4 position-relative ">
             <div className='custom-border h-100 rounded-4'>
-              <img className='object-fit-cover rounded-4 h-100 w-100' src="/assets/images/memory-image1.svg" alt="" />
+              <img className='object-fit-cover rounded-4 h-100 w-100 d-none d-lg-block' src="/assets/images/memory-image1.svg" alt="" />
+              <img className='object-fit-cover rounded-4 h-100 w-100 d-block d-lg-none' src="/assets/images/paris.png" alt="" />
             </div>
             <div className="memories- info position-absolute bottom-0 text-white d-flex flex-column justify-content-start align-items-start mx-3 mb-5">
               <h3 className='memories-heading'>Paris</h3>
@@ -63,9 +64,10 @@ const Memories = () => {
                 <div className="row ">
                   <div className="col position-relative ">
                     <div className='custom-border rounded-4'>
-                      <img className='object-fit-cover rounded-4 h-100 w-100' src="/assets/images/memory-image2.svg" alt="" />
+                      <img className='object-fit-cover rounded-4 h-100 w-100 d-none d-lg-block' src="/assets/images/memory-image2.svg" alt="" />
+                      <img className='object-fit-cover rounded-4 h-100 w-100 d-block d-lg-none' src="/assets/images/usa.png" alt="" />
                     </div>
-                    <div className="memories- info memoryimage-text text-white d-flex flex-column justify-content-start align-items-start text-start">
+                    <div className="memories- info memoryimage-text d-none d-lg-block text-white d-flex flex-column justify-content-start align-items-start text-start">
                       <h3 className='memories-heading'>USA</h3>
                       <ul className='memories-subtitle d-flex flex-column justify-content-start align-items-start'>
                         <li>2 trips</li>
@@ -80,9 +82,10 @@ const Memories = () => {
                 <div className="row h-100 g-2">
                   <div className="col-12 col-lg-6 position-relative">
                     <div className='custom-border rounded-4'>
-                      <img className='object-fit-cover rounded-4 h-100 w-100' src="/assets/images/japan.jpg" alt="" />
+                      <img className='object-fit-cover rounded-4 h-100 w-100 d-none d-lg-block' src="/assets/images/japan.jpg" alt="" />
+                      <img className='object-fit-cover rounded-4 h-100 w-100 d-block d-lg-none' src="/assets/images/japan.png" alt="" />
                     </div>
-                    <div className="memoryimage-text text-white d-flex flex-column justify-content-start align-items-start text-start">
+                    <div className="memoryimage-text d-none d-lg-block text-white d-flex flex-column justify-content-start align-items-start text-start">
                       <h3 className='memories-heading'>Japan</h3>
                       <ul>
                         <li>6 trips</li>
@@ -92,7 +95,8 @@ const Memories = () => {
                   </div>
                   <div className="col-12 col-lg-6 position-relative">
                     <div className='custom-border rounded-4'>
-                      <img className='object-fit-cover rounded-4 h-100 w-100' src="/assets/images/belarus.jpg" alt="" />
+                      <img className='object-fit-cover rounded-4 h-100 w-100 d-none d-lg-block' src="/assets/images/belarus.jpg" alt="" />
+                      <img className='object-fit-cover rounded-4 h-100 w-100 d-block d-lg-none img-fluid' src="/assets/images/belarus.png" alt="" />
                     </div>
                     <div className="memoryimage-text text-white d-flex flex-column justify-content-start align-items-start text-start">
                       <h3 className='memories-heading'>Belarus</h3>
